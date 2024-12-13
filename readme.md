@@ -1,5 +1,9 @@
-cloud2cloud Project
-===================
+cloud2cloud 
+===========
+## Cloud-Top Height Field Estimation from Aerial Imagery
+### In collaboration with NASA
+
+A Thesis in the Field of Data Science for the Degree of Master of Liberal Arts in Extension Studies
 
 This project aims to address a critical issue in extreme weather forecasting and guarantee accurate measurements of the earth's atmosphere. We are developing predictive models for estimating cloud top heights using advanced deep learning, computer vision, and optical flow geometry techniques. Our objectives are to accurately predict cloud top heights and create height field projections of cloud formations. We utilize high-definition images from NASA's FEGS ER2 mission (flying at 20,000 meters), complemented by LiDAR and aircraft metadata. This involves analyzing cloud motion between frames to determine relative heights through parallax effects, and for some methods using the periodic LiDAR measurements to calibrate these relative heights into absolute measurements. The project explores several computer vision approaches including optical flow estimation, monocular depth prediction, and deep learning techniques.
 
