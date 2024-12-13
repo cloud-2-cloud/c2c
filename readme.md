@@ -39,6 +39,7 @@ cloud2cloud Source Files
 * [Center Points TV L1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Center_Points_TV_L1.csv)
   - This CSV is the output for the notebook "Get Height of Center Points 1." This contains the predicted heights for the test dataset video.
 * [Create 3D Mesh v2](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Create_3D_Mesh_v2.ipynb)
+  - This notebook shows heights calculated by stitching height fields for frames from 17:57:04 to 18:09:35. The generated figures shows heights at the center line along the aircraft route. In other words, we can generate a 3D mesh of the cloud with viewpoints along the aircraft route and passing through the center of the frames
 * [Get Height For Entire Video v1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Get_Height_For_Entire_Video_v1.ipynb)
   - This notebook calculates heights for all pixels in selected frames using the Nvidia GPU version of TV-L1 from the OpenCV CUDA library. This is used to generate 3-D height fields.
 * [Get Height of Center Points 1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Get_Height_of_Center_Points_1.ipynb)
