@@ -2,7 +2,8 @@ cloud2cloud Source Files
 ==============================
 
 ### Due to this project being heavily research-oriented, the majority of the files are Jupyter notebooks, with some resource and utility Python files.
-
+---
+![](img/cloud.jpg)
 ---
 # Table of Contents
 
