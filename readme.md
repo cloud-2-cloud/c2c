@@ -18,12 +18,16 @@ cloud2cloud Source Files
 ## CNN RNN
 * [Final CNN RNN LiDAR point](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/final_CNN_RNN_LiDAR_point.ipynb)
 
-# Notebooks
+# Notebooks Scripts
 
 ## Lucas Kanade Optical Flow
 * [EDA Conv Next Gradient Deep Dive](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/EDA_Conv_Next_Gradient_Deep_Dive.ipynb)
+  - Initial exploration of out-of-the box conv_next output for potential use for optical flow geometric model. This was not deemed appropriate for selecting good features to track for Lucas-Kanade but rather a output to be ingested by the deep learning model technique.
 * [Initial Image Pixel EDA And Corner Detection](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/Initial_Image_Pixel_EDA_And_Corner_Detection.ipynb)
+  - Exploratory Data Analysis on cloud pixel luminosity and eventually looking at finding a good threshold to use for Shi-Tomasi. This was all for trying to think of good ways to identify "corner" pixels or good cloud pixels in general that can be trackable by Lucas-Kanade
 * [LK Tracking Fisheye Corrections And Center Predictions](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/LK_Tracking_Fisheye_Corrections_And_Center_Predictions.ipynb)
+  - This notebook has 2 parts. The first part is the visual aid to check that fish-eye correction is working as expected for Lucas-Kanade. It outputs tracking on original image frames and then corrected image frames.
+  - The second part is where we read in the test video dataset and output heights of the center 48x48 pixels that are trackable "corners". 
 
 ## MiDAS
 * [MiDaS](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS.ipynb)
