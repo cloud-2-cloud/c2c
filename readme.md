@@ -20,7 +20,7 @@ cloud2cloud Source Files
 
 # Notebooks Scripts
 
-## Lucas Kanade Optical Flow
+## Lucas-Kanade Optical Flow
 * [EDA Conv Next Gradient Deep Dive](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/EDA_Conv_Next_Gradient_Deep_Dive.ipynb)
   - Initial exploration of out-of-the-box conv_next output for potential use for optical flow geometric model. This was not deemed appropriate for selecting good features to track for Lucas-Kanade but rather an output to be ingested by the deep learning model technique.
 * [Initial Image Pixel EDA And Corner Detection](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/Initial_Image_Pixel_EDA_And_Corner_Detection.ipynb)
@@ -35,7 +35,7 @@ cloud2cloud Source Files
 * [MiDaS no output](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS_no_output.ipynb)
   - The MiDAS notebook where we tested MiDAS on the cloud imagery, and found it wasn't able to create appropriate height fields. This notebook has had the output cleared and is viewable in GitHub on the web.
 
-## TV L1 Optical Flow
+## TV-L1 Optical Flow
 * [Center Points TV L1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Center_Points_TV_L1.csv)
   - This CSV is the output for the notebook "Get Height of Center Points 1." This contains the predicted heights for the test dataset video.
 * [Create 3D Mesh v2](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Create_3D_Mesh_v2.ipynb)
