@@ -5,7 +5,7 @@ cloud2cloud Source Files
 ---
 ![](img/cloud.jpg)
 ---
-[Full report](docs/cloud2cloud.jpg)
+[Full report](docs/cloud2cloud.pdf)
 ---
 # Fully Documented Jupyter notebooks
 
