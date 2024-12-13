@@ -5,7 +5,7 @@ cloud2cloud Source Files
 ---
 ![](img/cloud.jpg)
 ---
-# Heavily commented and documented materials
+# Documented Jupyter notebooks
 
 ## RAFT
 * [Final RAFT height calculator stitching](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/final_RAFT_height_calculator_stitching.ipynb)
@@ -13,12 +13,12 @@ cloud2cloud Source Files
 * [Final RAFT height calculator stitching no output](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/final_RAFT_height_calculator_stitching_no_output.ipynb)
   - RAFT fine-tuning, height field generation, and stitching with no output. Can be viewed in GitHub without downloading the notebook.
 * [RAFT appendix](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/raft_appendix.pdf)
-  - The technical information from the notebooks in LaTeX format.
+  - The technical information from the RAFT notebook in LaTeX format.
 
 ## CNN RNN
 * [Final CNN RNN LiDAR point](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/final_CNN_RNN_LiDAR_point.ipynb)
 
-# Less documented notebooks
+# Notebooks
 
 ## Lucas Kanade Optical Flow
 * [EDA Conv Next Gradient Deep Dive](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/EDA_Conv_Next_Gradient_Deep_Dive.ipynb)
