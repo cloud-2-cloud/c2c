@@ -5,33 +5,37 @@ cloud2cloud Source Files
 ---
 ![](img/cloud.jpg)
 ---
-# Table of Contents
+# Heavily commented and documented notebooks and appendix
 
-# Lucas Kanade Optical Flow
-* [EDA Conv Next Gradient Deep Dive](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/EDA_Conv_Next_Gradient_Deep_Dive.ipynb)
-* [Initial Image Pixel EDA And Corner Detection](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/Initial_Image_Pixel_EDA_And_Corner_Detection.ipynb)
-* [LK Tracking Fisheye Corrections And Center Predictions](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/LK_Tracking_Fisheye_Corrections_And_Center_Predictions.ipynb)
-
-# MiDAS
-* [MiDaS](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS.ipynb)
-* [MiDaS no output](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS_no_output.ipynb)
-
-# RAFT
+## RAFT
 * [Final RAFT height calculator stitching](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/final_RAFT_height_calculator_stitching.ipynb)
 * [Final RAFT height calculator stitching no output](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/final_RAFT_height_calculator_stitching_no_output.ipynb)
 * [RAFT appendix](https://github.com/cloud-2-cloud/c2c/blob/main/RAFT/raft_appendix.pdf)
 
-# TV L1 Optical Flow
+## CNN RNN
+* [Final CNN RNN LiDAR point](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/final_CNN_RNN_LiDAR_point.ipynb)
+
+# Less documented notebooks
+
+## Lucas Kanade Optical Flow
+* [EDA Conv Next Gradient Deep Dive](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/EDA_Conv_Next_Gradient_Deep_Dive.ipynb)
+* [Initial Image Pixel EDA And Corner Detection](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/Initial_Image_Pixel_EDA_And_Corner_Detection.ipynb)
+* [LK Tracking Fisheye Corrections And Center Predictions](https://github.com/cloud-2-cloud/c2c/blob/main/Lucas_Kanade_Optical_Flow/LK_Tracking_Fisheye_Corrections_And_Center_Predictions.ipynb)
+
+## MiDAS
+* [MiDaS](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS.ipynb)
+* [MiDaS no output](https://github.com/cloud-2-cloud/c2c/blob/main/MiDAS/MiDaS_no_output.ipynb)
+
+## TV L1 Optical Flow
 * [Center Points TV L1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Center_Points_TV_L1.csv)
 * [Create 3D Mesh v2](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Create_3D_Mesh_v2.ipynb)
 * [Get Height For Entire Video v1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Get_Height_For_Entire_Video_v1.ipynb)
 * [Get Height of Center Points 1](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/Get_Height_of_Center_Points_1.ipynb)
 * [TV L1 Visualization](https://github.com/cloud-2-cloud/c2c/blob/main/TV_L1_Optical_Flow/TV_L1_Visualization.ipynb)
 
-# CNN RNN
+## CNN RNN
 * [Conv-next-feature-extraction (HTML)](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/conv-next-feature-extraction.html)
 * [Conv-next-feature-extraction (Notebook)](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/conv-next-feature-extraction.ipynb)
-* [Final CNN RNN LiDAR point](https://github.com/cloud-2-cloud/c2c/blob/main/cnn_rnn/final_CNN_RNN_LiDAR_point.ipynb)
 
 # Data Processing
 * [Aircraft metadata processor](https://github.com/cloud-2-cloud/c2c/blob/main/data_processing/aircraft_metadata_processor.ipynb)
